@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif ;
+}
+
+body{
+    background-image: url(../imagenes/fondo.jpg); 
+    /* background-color: rgb(49, 51, 184); */
+    background-size: 230vh;
+}
+
+div a{
+    text-decoration: none;
+    color: azure;
+}
+p{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#footer{
+display: flex;
+flex-direction: column;
+/* justify-items: flex-end; */
+align-items: flex-end;    
+}
+
+footer{
+    color: azure;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ruleta{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;  
+}
+
+.tituloPrincipal{
+    text-decoration: none;
+    color: azure;
+    font-size: 50px;
+} 
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categoria{
+   font-size: 23px;
+   text-decoration: none;
+   color:#000000;
+    border-radius: 8px; 
+   border-style: solid;
+
+}
+
+.categoria:hover{
+    transform: scale(1.1);
+    color:#ffffff;
+}
+
+.divboton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    font-size: 23px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 8px;
+    background: linear-gradient(to top, #009933 0%,#00e64d 100%);
+    border: 1px solid #009933; 
+}
+
+.comida{
+    color: red;
+}
+
+.bebida{
+    color: rgb(0, 110, 255);
+}
+
+.ropa{
+    color: rgb(233, 44, 233);
+}
+
+.salida{
+    color: green;
+}
+
+.pelicula{
+    color: burlywood;
+}
+
+.musica{
+    color: rgb(170, 168, 168);
+}
+
+.boton:hover{
+    transform: scale(1.2);
+    color:#ffffff; 
+}
+
+@media (max-width:600px){
+    #canvas{
+        width: 100%;  
+        
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peli/Serie</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/TweenMax.min.js"></script>   
+    <script src="../js/Winwheel.min.js"></script>
+    <script src="../js/hammer.min.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div id="logo">
+                <img src="" alt="">
+                <h1><a href="../index.html" class="tituloPrincipal">What 's next?</a></h1>
+            </div>
+            <nav>
+                <h1 class="subtitulo">Elige categoria</h1>
+                <div>
+                <a href="Comida.html"class="categoria comida">Comida</a>
+                <a href="Bebida.html"class="categoria bebida">Bebida</a>
+                <a href="Ropa.html" class="categoria ropa">Ropa (colores)</a>
+                <a href="Salida.html" class="categoria salida">Lugar</a>
+                <a href="Peli.html" class="categoria pelicula">Pelicula/Serie (Genero)</a>
+                <a href="Musica.html" class="categoria musica">Música (Genero)</a>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <br>
+            <div class="divboton">
+                <input type="button" value="¡GIRAR!" onclick="miRuleta.startAnimation()" class="boton">
+            </div>
+            
+            <div class="ruleta">
+            <canvas id="canvas" height="480" width="400"></canvas>
+            </div>
+            
+        </section>
+        <footer>
+            Hecho por Lautaro Casanueva
+            <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> 
+            <div>Icons made by <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div>Icons made by <a href="https://www.flaticon.es/autores/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div>Icons made by <a href="https://www.flaticon.es/autores/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </footer>                                
+    </div>
+    <script src="../js/peli.js"></script>      
+</body>
+</html>
