@@ -71,6 +71,7 @@ Hammer(canvas).on('swiperight', function(){
 miRuleta.startAnimation() //funcion que hace empezar la animacion de la ruleta
 });
 
+//permite hacer el gesto de deslizar hacia la izquierda o derecha para que cambie de página
 var cambioderecha= document.querySelector("#header");
 Hammer(header).on('swiperight', function(){
 window.location="../html/Bebida.html";
@@ -80,6 +81,28 @@ var cambioizquierda= document.querySelector("#header");
 Hammer(header).on('swipeleft', function(){
 window.location="../index.html";
 });
+
+
+
+//música
+window.onload=function(){
+ 
+    // creamos el objeto audio
+    var audioElement = document.createElement('audio');
+
+    // indicamos el archivo de audio a cargar
+    audioElement.setAttribute('src', '../musica/musica.mp3');
+
+    // Si deseamos que una vez cargado empieze a sonar...
+    audioElement.setAttribute('autoplay', 'autoplay');
+
+    audioElement.setAttribute('loop', 'loop');
+
+    document.getElementById("pause").addEventListener("click", function() {
+        // hacemos pausa
+        audioElement.pause();
+    });
+};
 
 
 

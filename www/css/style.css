@@ -93,6 +93,15 @@ nav div{
     border: 1px solid #009933; 
 }
 
+#pause{
+    font-size: 23px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 8px;
+    background: linear-gradient(to top, #990000 0%,#e60f00 100%);
+    border: 1px solid #990000; 
+}
+
 .comida{
     color: red;
 }
@@ -121,6 +130,12 @@ nav div{
     transform: scale(1.2);
     color:#ffffff; 
 }
+
+#pause:hover{
+    transform: scale(1.2);
+    color:#ffffff; 
+}
+
 
 @media (max-width:600px){
     #canvas{
